@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    android:paddingBottom="15dp">
+
+    <LinearLayout
+        android:id="@+id/messageTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sendback"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:padding="3dp"
+            android:id="@+id/messageUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mamkin"
+            android:textColor="#FFEB3B"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/messageText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="end"
+            android:text="Hello"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/messageTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:padding="3dp"
+            android:text="22.10.22 21:15"
+            android:textColor="#FFEB3B" />
+    </LinearLayout>
+
+
+</RelativeLayout>

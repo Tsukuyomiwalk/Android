@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TelegramClone</string>
+    <string name="enter_your_message">enter your message...</string>
+    <string name="scroll_down">scroll down</string>
+</resources>
